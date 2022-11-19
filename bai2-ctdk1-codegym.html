@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kiểm tra tuổi vào lớp 10</title>
+</head>
+<body>
+<h1>Bài 2 :</h1>
+<h2 id="age" style="color: #3498db"></h2>
+</body>
+<script>
+    let age = +prompt("Nhập tuổi của bạn vào đây :");
+    if(age < 15){
+        document.getElementById("age").innerHTML="Bạn không đủ điều kiện vào lớp 10";
+    }else {
+        document.getElementById("age").innerHTML="Bạn đã đủ điều kiện vào lớp 10";
+    }
+</script>
+</html>
